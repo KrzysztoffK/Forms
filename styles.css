@@ -1,0 +1,91 @@
+/*elementy ogólne*/
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #CFD0C3;
+}
+header{
+    text-align: center;
+    background-color: #98A29A;
+}
+
+/* elementy navbara*/
+nav{
+    overflow: hidden;
+    background-color: #BEC3B7;
+}
+nav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #00BD39;
+    color: black;
+}
+a.active{
+    background-color: #00BD39;
+}
+
+/*dla index*/
+h1.head{
+    padding: 2%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+section.main{
+    text-align: center;  
+}
+
+footer{
+    text-align: center;
+}
+
+hr.main{
+    margin-top: 64vh;
+}
+
+/*dla form 1*/
+form.form1{
+    margin-left: 5%;
+}
+
+section.form1{
+    display: flex;
+    justify-content: center;   
+}
+
+/*dla form 2*/
+section.form2{
+    text-align: center;
+}
+
+
+fieldset{
+    margin: 0 40vw 0 40vw;
+}
+
+input:focus {
+    background-color: #ccffcc;
+}
+
+input[type=submit]:hover {
+    background-color: #00BD39;
+}
+
+input[type=reset]:hover {
+    background-color: #ff8080;
+}
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}

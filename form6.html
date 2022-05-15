@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header><h1 class="head">Forms</h1></header>
+        <nav>
+            <a class="active" href="index.html">Home page</a>
+            <a href="form1.html">Form 1</a>
+            <a href="form2.html">Form 2</a>
+            <a href="form3.html">Form 3</a>
+            <a href="form4.html">Form 4</a>
+            <a href="form5.html">Form 5</a>
+            <a href="form6.html">Form 6</a>
+            <a href="form7.html">Form 7</a>
+        </nav>
+        <h1 style="text-align: center;">User registration</h1>
+        <section class="form2">
+            <form>
+                <fieldset>
+                    <legend><b>General info</b></legend>
+                    Name:<br />
+                    <input type="text" name="name" required><br /><br />
+                    Surname:<br />
+                    <input type="text" name="surname" required><br /><br />
+                    Date of birth:<br />
+                    <input type="date" name="date" required><br /><br />
+                    Gender:<br />
+                    <input type="radio" name="gender" value="male" required>Male<br /><br />
+                    <input type="radio" name="gender" value="female">Female<br /><br />
+                    <input type="radio" name="gender" value="other">Other<br />
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend><b>Location info</b></legend>
+                    Country:<br />
+                    <input type="text" name="country"><br /><br />
+                    Town:<br />
+                    <input type="text" name="town"><br /><br />
+                    Address:<br />
+                    <input type="text" name="address"><br /><br />
+                    ZIP Code:<br />
+                    <input type="text" name="zipcode" placeholder="XX-XXX"><br /><br />
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend><b>Service ID</b></legend>
+                    Username:<br />
+                    <input type="text" name="username" required><br /><br />
+                    Email:<br />
+                    <input type="email" name="email" placeholder="email@domain.com" required><br /><br />
+                    Telephone number:<br />
+                    <input type="tel" name="telephone" placeholder="XXX-XXX-XXX"><br /><br />
+                    Password:<br />
+                    <input type="password" name="password" required><br />
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend><b>Additional info</b></legend>
+                    Internet website:<br />
+                    <input type="url" name="website"><br /><br />
+                    Favorite number:<br />
+                    <input type="number" name="favnumber"><br /><br />
+                    Favorite color:<br />
+                    <input type="color" name="favcolor"><br />
+                </fieldset>
+                <br />
+                <input type="submit" value="Submit">
+                &nbsp;&nbsp;
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </body>
+</html>
